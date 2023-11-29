@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, #app, #sign-up-page, #login-page {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+#sign-up-page {
+    overflow: auto;
+}
+
+.off-white {
+    background-color: #eee !important;
+}
+
+#sign-up-form {
+    font-size: smaller;
+}
+
+img {
+    min-width: 150px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline solid rgba( 13, 110, 253, 0.75);
+}
+
+.login-page-link {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.form-extra {
+    font-size: 13px;
+    position: relative;
+    height: 50px;
+}
+
+.smaller {
+    font-size: 15px;
+}
+
+#forgot-pass {
+    position: absolute;
+    right: 0;
+}
+
+#forgot-pass:hover {
+    color: rgba( 13, 110, 253, 0.75);
+}

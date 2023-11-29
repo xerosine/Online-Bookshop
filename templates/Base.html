@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/home_style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+          <span>RETRO BOOKS</span>
+          <div class="navbar">
+            <a href="" class="nav-link {% block home_active %}{% endblock %}">Home</a>
+            <a href="" class="nav-link {% block cart_active %}{% endblock %}">My Cart</a>
+            <a href="" class="nav-link {% block history_active %}{% endblock %}">History</a>
+            <button><a href="" class="nav-link">Sign Up</a></button>
+          </div>
+        </nav>
+        {% block header-ext %}{% endblock %}
+    </header>
+    {% block content %}{% endblock %}
+    <footer>
+        <div class="foot-content">
+          <div class="retro">
+            <p>RETRO BOOKS</p>
+            <div class="footlinks1">
+              <a href="">About us</a>
+              <a href="">Publishing</a>
+              <a href="">FAQ</a>
+              <a href="">Order History</a>
+              <a href="">Terms & Conditions</a>
+            </div>
+          </div>
+          <div class="subscribe">
+            <form action="">
+              <label for="">Subscribe</label>
+              <input type="email" name="" id="" placeholder="Enter your email" />
+              <button>Subscribe</button>
+              <small>By subscribing you agree to with our<a href="">Privacy Policy</a></small>
+            </form>
+          </div>
+        </div>
+        <div class="credits">
+          <div class="footlinks2">
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+            <a href="">Cookies Settings</a>
+            <div class="copyright">
+              <p>2023 Retro Books. All right reserved.</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

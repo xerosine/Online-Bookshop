@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Style */
+header {
+    padding: 1rem 2.5rem;
+    background: no-repeat 90%/100% url("../Images/header_background.png");
+    height: 80vh;
+}
+nav {
+    margin: 0.1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav span {
+    font-size: 2.2rem;
+    color: #fff;
+    font-family: 'Risque', serif;
+}
+.navbar {
+    display: inline-flex;
+    min-width: 23rem;
+    height: 30px;
+    justify-content: space-around;
+    align-self: center;
+}
+.navbar button {
+    margin: 0;
+    background-color: #fff;
+    border: transparent;
+    border-radius: 0.25rem;
+    width: 4.5rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding-top: 5px;
+}
+button .nav-link {
+    color: #000;
+    
+}
+.active {
+    color: #7E2410;
+}
+.intro {
+    width: 50rem;
+    color: #fff;
+    text-align: center;
+    margin: 13rem auto;
+}
+.intro h1 {
+    font-size: 2.6rem;
+    font-family: 'Risque', serif;
+    letter-spacing: 2px;
+}
+.intro p {
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+.intro button {
+    padding: .7rem;
+    border: transparent;
+    border-radius: .4rem;
+}
+
+/* Content Style */
+main {
+    height: 145vh;
+}
+.key-values h2 {
+    font-size: 2rem;
+    margin: 5.5rem auto 3.5rem;
+    text-align: center;
+}
+.values {
+    display: flex;
+    margin-bottom: 7rem;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+.values > div {
+    display: inline-block;
+    min-width: 20rem;
+    width: 29%;
+    text-align: center;
+}
+.svg-wrapper {
+    text-align: center;
+    margin: .5rem auto;
+}
+.values h3 {
+    margin: 1.7rem 0;
+    font-size: 1.5rem;
+    height: 3rem;
+}
+.best-sellers h2 {
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 4.5rem 0 2.5rem;
+}
+.gallery {
+    padding: .5rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.book-small {
+    width: 23%;
+    min-width: 15rem;
+    text-align: center;
+}
+.book-small > div {
+    width: 100%;
+    height: 18.5rem;
+}
+.book-small img {
+    width: 100%;
+    height: 100%;
+}
+.book-small p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+.book-small small {
+    font-size: .9rem;
+    text-align: center;
+    color: #7E2410;
+    font-weight: 500;
+}
+.slider {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+/* Footer Style */
+footer {
+    height: 35vh;
+    background-color: #242424;
+    color: #fff;
+    padding: 3.5rem 4rem;
+}
+.foot-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.retro {
+    width: 50%;
+}
+.retro p {
+    font-size: 1.3rem;
+    font-family: 'Risque', serif;
+    margin-top: .25rem;
+}
+.footlinks1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.footlinks1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: .85rem;
+    font-weight: 600;
+}
+.subscribe {
+    width: 35%;
+}
+.subscribe label {
+    display: block;
+    margin-bottom: 1rem;
+}
+.subscribe input, .subscribe button {
+    padding: .6rem .4rem;
+    background-color: transparent;
+    border: 0.0625rem solid #fff;
+    border-radius: .5rem;
+    margin-right: .8rem;
+    color: #fff;
+}
+.subscribe input::placeholder {
+    color: #fff;
+}
+.subscribe button {
+    padding: .6rem .4rem;
+}
+.subscribe small {
+    display: block;
+    font-size: .7rem;
+    margin-top: .7rem;
+}
+.subscribe small a {
+    color: #fff;
+    margin-left: .2rem;
+}
+.credits {
+    border-top: 0.125rem solid #fff;
+    padding-top: 2rem;
+}
+.footlinks2 {
+    display: flex;
+}
+.footlinks2 a {
+    color: #fff;
+    margin-right: 1rem;
+    font-size: .9rem;
+}
+.copyright {
+    margin-left: auto;
+    display: inline-block;   
+}
+.copyright p {
+    margin-top: 0;
+    font-size: .9rem;
+}
